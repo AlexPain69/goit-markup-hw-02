@@ -5,107 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./potfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav">
+      <a class="logo link" href="./index.html"><span class="logo-web">WEB</span>STUDIO</a>
+        <ul class="nav-link link">
+          <li><a class="link" href="./index.html">Studio</a></li>
+          <li><a class="link" href="./potfolio.html">Portfolio</a></li>
+          <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address-info">
+          <li><a class="link" href="info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link" href="+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
+    <!-- HEADER/ -->
+      <!-- PORTFOLIO -->
+    <section class="porfolio">
 
-    <h1>Portfolio</h1>
-    <ul>
-      <li><button type="button">All</button></li>
-      <li><button type="button">Web Site</button></li>
-      <li><button type="button">App</button></li>
-      <li><button type="button">Design</button></li>
-      <li><button type="button">Marketing</button></li>
-    </ul>
+    <h1 class="portfolio-title">Portfolio</h1>
+    
+      <ul class="portfolio-btn">
+        <li><button type="button" class="btn-all btn">All</button></li>
+        <li><button type="button" class="btn-site btn">Web Site</button></li>
+        <li><button type="button" class="btn-app btn">App</button></li>
+        <li><button type="button" class="btn-design btn">Design</button></li>
+        <li><button type="button" class="btn-marketing btn">Marketing</button></li>
+      </ul>
 
-    <ul>
+     <ul class="menu">
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img.jpg" alt="banking" width="360" />
-          <h2>Banking App Interface Concept</h2>
-          <p>App</p>
+          <h2 class="menu-title" >Banking App Interface Concept</h2>
+          <p class="menu-text">App</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(1).jpg" alt="payment" width="360" />
-          <h2>Cashless payment</h2>
-          <p>Marketing</p>
+          <h2 class="menu-title">Cashless payment</h2>
+          <p class="menu-text">Marketing</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(2).jpg" alt="app" width="360" />
-          <h2>Meditaion App</h2>
-          <p>App</p>
+          <h2 class="menu-title">Meditaion App</h2>
+          <p class="menu-text">App</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/ " class="link">
           <img src="./images/img(3).jpg" alt="taxi" width="360" />
-          <h2>Taxi Service</h2>
-          <p>Marketing</p>
+          <h2 class="menu-title">Taxi Service</h2>
+          <p class="menu-text">Marketing</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(4).jpg" alt="illustrations" width="360" />
-          <h2>Screen Illustrations</h2>
-          <p>Design</p>
+          <h2 class="menu-title">Screen Illustrations</h2>
+          <p class="menu-text">Design</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(5).jpg" alt="girl" width="360" />
-          <h2>Online Courses</h2>
-          <p>Marketing</p>
+          <h2 class="menu-title">Online Courses</h2>
+          <p class="menu-text">Marketing</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(6).jpg" alt="instagram photo" width="360" />
-          <h2>Instagram Stories Concept</h2>
-          <p>Design</p>
+          <h2 class="menu-title">Instagram Stories Concept</h2>
+          <p class="menu-text">Design</p>
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(7).jpg" alt="girl with food" width="360" />
-          <h2>Organic Food</h2>
-          <p>Web Site</p>
-        </a>
+          <h2 class="menu-title">Organic Food</h2>
+          <p class="menu-text">Web Site</p>
       </li>
+        </a>
       <li>
-        <a href="">
+        <a href="/" class="link">
           <img src="./images/img(8).jpg" alt="cofee" width="360" />
-          <h2>Fresh Cofee</h2>
-          <p>Web Site</p>
+          <h2 class="menu-title">Fresh Cofee</h2>
+          <p class="menu-text">Web Site</p>
         </a>
       </li>
     </ul>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+  </section>
+    <!-- PORTFOLIO/ -->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a class="logo-footer link" href="./index.html"><span class="logo-web">WEB</span>STUDIO</a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

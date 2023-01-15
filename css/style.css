@@ -13,19 +13,19 @@ body {
 .btn:hover, 
 .btn:focus {
   cursor: pointer;
-  color:#404BBF;
 }
 
 
 .link:hover,
 .link:focus {
  color: var(--accent-color-iris);
-
+ cursor: default;
 }
+
+/* Header */
 
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -35,6 +35,12 @@ body {
 }
 
 .logo-web {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
   color: var(--accent-color-iris);
 }
 
@@ -53,13 +59,30 @@ body {
   color: #434455;
 }
 
-.portfolio-btn li {
+/* PORTFOLIO_BTN */
+
+.porfolio-title {
+  visibility: hidden;
+}
+
+.btn-txt {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
-  color: var(--accent-color-iris);
+  color: #FFFFFF;
 }
+
+.box-btn {
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* portfolio-menu */
+
 
 .menu-title {
   font-weight: 500;
@@ -78,9 +101,10 @@ body {
   text-decoration: none;
 }
 
+/* footer  */
+
 .logo-footer {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -127,7 +151,9 @@ a {
 }
 
 .box-btn {
-  background: var(--accent-color-iris);
+  color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   display: block;
   margin-left: auto;
   margin-right: auto;
